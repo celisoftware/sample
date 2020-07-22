@@ -50,7 +50,6 @@ class addremove extends Controller
 		}
 		return redirect()->back()->with('success', 'Successfully save to database!');
 		
-		//return redirect()->route('homepage');	
 	}
 }
 
